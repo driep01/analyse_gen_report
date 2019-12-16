@@ -125,7 +125,7 @@ for v_line in v_data:
 v_listPosition = 0
 
 while v_numRows > 0:
-    # work through the data starting witht the first data ROW
+    # work through the data starting with the first data ROW
     v_rowStartLineNum = v_rowStartPositionList[v_listPosition] + 1
     # until the end of the last ROW
     v_rowEndLineNum = v_rowEndPositionList[v_listPosition] - 1
